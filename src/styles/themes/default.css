@@ -1,0 +1,27 @@
+:root {
+    /* --primary-color: #edf2f2;
+    --secondary-color: rgb(29, 27, 27); */
+      --font-logo: 1.5rem;
+      /* --color-style-decoration: #1C1C1C;
+      --color-light-grey:#a5a5a5; */
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+      margin: 3rem 0 0 0;
+      font-size: 0.938rem;
+  }
+  
+  
+  
