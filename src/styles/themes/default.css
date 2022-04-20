@@ -13,15 +13,18 @@
       box-sizing: border-box;
   }
   
-  html {
+  /* html {
       scroll-behavior: smooth;
-  }
+  } */
   
   body {
     font-family: 'Roboto', sans-serif;
-      margin: 3rem 0 0 0;
+      margin: 0 0 0 0;
       font-size: 0.938rem;
+      background-color: #211B28;
   }
   
-  
+  ul{
+      list-style-type: none;
+  }
   
