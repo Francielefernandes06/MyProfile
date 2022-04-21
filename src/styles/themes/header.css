@@ -18,11 +18,12 @@ body {
 
 /* variables */
 body{
-    --text-light: rgba(243, 244, 246,0.9);
+    --text-light: rgba(255, 255, 255, 0.9);
     --primary-dark: rgba(55, 65, 81, 1);
     --secondary-dark: rgba(55, 65, 81, 0.7);
-    --bg-light: rgba(243, 244, 246,0.3);
-    --bg-btn: rgba(67, 56, 202, 0.8);
+    --bg-light: rgb(5, 167, 130);
+    --bg-btn: rgba(5, 2, 35, 0.8);
+    --bg-dark:rgb(228, 64, 95);
 
     /* css style */
     background-color: var(--text-light);
@@ -35,6 +36,7 @@ body.dark{
     --bg-btn: rgba(219, 233, 29, 0.897);
     --bg-light: rgba(45, 49, 54, 0.5);
 }
+
 
 .dark{
     display: flex;
@@ -107,7 +109,7 @@ input[type="checkbox"]:checked{
     top: 0;
     left: 0;
     background-color: #211B28;
-    border-right: 2px solid #05a782;
+    border-right: 2px solid var(--bg-light);
 }
 .nav-logo{
     position: absolute;
@@ -117,13 +119,13 @@ input[type="checkbox"]:checked{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #05a782;
+    background-color: var(--bg-light);
     text-align: center;
     margin: auto;
 }
 .nav-logo-text{
     font-size: 1.125rem;
-    color: #ffffff;
+    color: var(--text-light);
     font-weight: 100;
     line-height: 50px;
 }
@@ -142,13 +144,14 @@ input[type="checkbox"]:checked{
     flex-direction: row-reverse;
     margin: -2px auto 0 auto;
     list-style:  none;
+    gap: 20px;
 }
 .nav-link{
     float: right;
     height: 100%;
     line-height: 100px;
     padding: 0 0.5rem;
-    color: #ffffff;
+    color: var(--text-light);
     font-weight: ;
     position: relative;
     transition: .4s;
@@ -156,14 +159,14 @@ input[type="checkbox"]:checked{
 
 
 .nav-link.link-ativo, .nav-link:hover{
-    color: #05a782;
+    color: var(--bg-light);
 }
 .nav-link.link-ativo::after, .nav-link:hover::after{
     position: absolute;
     content: '';
     width: 6px;
     height: 6px;
-    background-color: #05a782;
+    background-color: var(--bg-light);
     border-radius: 50%;
     bottom: 1.8rem;
     left: 0;
@@ -174,33 +177,4 @@ input[type="checkbox"]:checked{
 /*main*/
 .main{
     margin-left: 100px;
-}
-.home-img{
-    width: 559px;
-    height: 758px;
-}
-.container{
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.grid{
-    display: grid;
-}
-.home-img{
-    display: none;
-}
-.home{
-    background: ;
-    background-color: cover;
-    background-position: center center;
-    height: 100vh;
-}
-.home-container {
-    position: relative;
-    height: 100%;
-    align-items: center;
-}
-.home-social{
-
 }
