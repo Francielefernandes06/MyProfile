@@ -63,7 +63,7 @@ section .home{
 }
 .hero {
       background-color: rgb(227, 238, 252);
-      background: url(../../assets//images//home-img.png);
+      background: url(../../images/lisa.png);
       background-repeat: no-repeat;
       background-position: right center;
     background-size: 50%;
