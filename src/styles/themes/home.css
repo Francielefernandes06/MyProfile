@@ -1,3 +1,7 @@
+section .home{
+    padding: 100px 0;
+    max-width: 1250px;
+}
 .home-img{
     width: 559px;
     height: 758px;
@@ -123,7 +127,7 @@
     border-bottom: 1px solid #ea337f;
 }
 @media (max-width: 767px) {
-.hero {
+.hero  {
     background-size: cover;
     background-position: 700px center;
 }
@@ -149,7 +153,11 @@
     margin-top: 0;
     align-items: center;
 }
-    
+.about-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
 @media (max-width: 479px) {
 .hero {
     background-image: none;
