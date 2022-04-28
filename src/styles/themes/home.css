@@ -1,21 +1,20 @@
 section .home{
-    padding: 100px 0;
     max-width: 1250px;
-}
-.home-img{
+  }
+  .home-img{
     width: 559px;
     height: 758px;
-}
-.container{
+  }
+  .container{
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-}
-.grid{
+  }
+  .grid{
     display: grid;
-}
+  }
   
-.home-social{
+  .home-social{
     position: relative;
     left: 0;
     display: flex;
@@ -30,7 +29,7 @@ section .home{
     margin-left: 20px;
     position: relative;
   
-}
+  }
   .home-social-follow::after{
     content: '';
     position: absolute;
@@ -39,38 +38,38 @@ section .home{
     background-color: #ffffff;
     right: -45%;
     top: 50%;
-}
-.home-social-links{
+  }
+  .home-social-links{
     display: inline-flex;
     column-gap: 1rem; 
     
-}
-.home-social-links{
+  }
+  .home-social-links{
     font-size: ;
     color: #ffffff;
     transition: .4s;
     margin-top: 10px;
   
-}
+  }
   
-.home-social-links:hover{
+  .home-social-links:hover{
     transform: translateY(.15rem);
-}
-.test {
+  }
+  .test {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-}
-.hero {
+  }
+  .hero {
       background-color: rgb(227, 238, 252);
-      background: url(../../images/lisa.png);
+      background: url(../../assets//images/lisa.png);
       background-repeat: no-repeat;
       background-position: right center;
-    background-size: 50%;
-    background-color: #cccccc;
+      background-size: 50%;
+    border-bottom: #ea337f;
   
-}
-.hero-container {
+  }
+  .hero-container {
     min-height: 95.5vh;
     padding:  0.5rem;
     max-width: 990px;
@@ -82,100 +81,100 @@ section .home{
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-.hero-content {
+  }
+  .hero-content {
     max-width: 450px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-}
-.hero-header, .hero-subheader {
+  }
+  .hero-header, .hero-subheader {
     font-weight: 300;
-}
-.hero-header {
+  }
+  .hero-header {
     font-size: 47.25px;
     margin-bottom: 20px;
-}
-.hero-subheader {
+  }
+  .hero-subheader {
     font-size: 21px;
     padding-bottom: 20px;
     margin-bottom: 0;
-}
-.try-business {
+  }
+  .try-business {
     margin: 30px 0 0 0;  
-}
-.try-business-button {
+  }
+  .try-business-button {
     display: inline-block;
     border-radius: 5px;
-    font-size: 21px;
     text-decoration: none;
     padding: 19px 26px;
     color: #fff;
     background-color: var(--skin-color);
-}
-.try-business-button:hover {
+  }
+  .try-business-button:hover {
     background-color: #ea337f;
-}
-.try-business-footer {
+  }
+  .try-business-footer {
     display: block;
     font-size: 16px;
     margin-top: 15px;
-}
-.try-business-footer a {
+  }
+  .try-business-footer a {
     text-decoration: none;
     color: #ea337f;
     border-bottom: 1px solid #ea337f;
-}
-@media (max-width: 767px) {
-.hero  {
+  }
+  @media (max-width: 767px) {
+  .hero  {
     background-size: cover;
     background-position: 700px center;
-}
-.hero-container {
+  }
+  .hero-container {
     min-height: 350px;
     padding: 45px 20px;
-}
-.hero-header {
+  }
+  .hero-header {
     font-size: 31px;
     margin-bottom: 20px;
-}
-.hero-subheader {
+  }
+  .hero-subheader {
     font-size: 16px;
-}
-.try-business-button {
+  }
+  .try-business-button {
     padding: 16px 40px;
     font-size: 16px;
-}
-.try-business {
+  }
+  .try-business {
     margin: 0;
-}
-.home-social-links {
+  }
+  .home-social-links {
     margin-top: 0;
     align-items: center;
-}
-.about-content{
+  }
+  .about-content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}  
-@media (max-width: 479px) {
-.hero {
-    background-image: none;
-}
-.hero-content {
-    right: 10px;
-    left: 10px;
-}
-.hero-header {
-    font-size: 20px;
-}
-.hero-header, .hero-subheader {
-    text-align: center;
-}
-.try-business {
-    text-align: center;
-}
-.try-business-button {
-    padding: 13px 20px;
-    font-size: 16px;
-}
+  }  
+  @media (max-width: 479px) {
+    .hero {
+      background-image: none;
+    }
+    .hero-content {
+      right: 10px;
+      left: 10px;
+    }
+    .hero-header {
+      font-size: 20px;
+    }
+    .hero-header, .hero-subheader {
+      text-align: center;
+    }
+    .try-business {
+      text-align: center;
+    }
+    .try-business-button {
+      padding: 13px 20px;
+      font-size: 16px;
+    }
+  }
