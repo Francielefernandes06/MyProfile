@@ -20,11 +20,11 @@ body{
 
 body.dark{
     --text-light : rgba(55, 65, 81, 1);
-    --primary-dark:rgba(243, 244, 246,1);
+    --primary-dark:hsl(9, 39%, 77%);
     --secondary-dark: rgba(243, 244, 246,0.3);
-    --bg-btn: rgba(219, 233, 29, 0.897);
-    --bg-light: rgba(45, 49, 54, 0.5);
-    --test: #211B28;
+    --bg-btn:;
+    --bg-light: rgb(69, 21, 49);
+    --test: rgb(69, 21, 49);
 }
 
 
