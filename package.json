@@ -1,0 +1,19 @@
+{
+  "name": "myprofile",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">Em desenvolvimento</p>\r <h1 align=\"center\">\r     <a href=\"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript\">🔗 JavaScript</a>\r </h1>\r <p align=\"center\">🚀 lib para construir interfaces dinamicamenente</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francielefernandes06/MyProfile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francielefernandes06/MyProfile/issues"
+  },
+  "homepage": "https://github.com/Francielefernandes06/MyProfile#readme"
+}
