@@ -191,11 +191,7 @@ input[type="checkbox"]:checked{
     width: 559px;
     height: 758px;
 }
-.container{
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .grid{
     display: grid;
 }
