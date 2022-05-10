@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="src/styles/themes/contact.css">
     <link rel="stylesheet" href="src/styles/themes/footer.css">
 </head>
+
 <body>
     <!--Menu-->
 
@@ -30,7 +31,7 @@
         <i class="uil uil-bars"></i>
     </div>
     <aside class="sidebar" id="sidebar">
-       
+
         <nav class="nav">
             <div class="nav-logo">
                 <a href="index.html" class="nav-logo-text">FF</a>
@@ -56,7 +57,7 @@
                         <li class="nav-item">
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
-                        <li class="dark test">
+                        <li class="dark container-btn-check">
                             <input type="checkbox" id="mode">
                         </li>
                     </ul>
@@ -65,42 +66,38 @@
             <div class="nav__close" id="nav-close">
                 <i class="uil uil-times"></i>
             </div>
-            
+
         </nav>
     </aside>
     <main class="main">
         <!--Home-->
-        <section class="home" id="home">
-            <div class="container">
-                <section class="hero" id="hero">
-                    <div class="hero-container">
-                        <div class="hero-content">
-                            <h1 class="hero-header">
-                                I'm Franciele Fernandes
-                            </h1>
-                            <h2 class="hero-subheader">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, eos praesentium
-                                nesciunt alias corporis eius non harum, deleniti obcaecati rem a.
-                            </h2>
-                            <div class="try-business">
-                                <a href="#" class="try-business-button">Try 1 month free</a>
-                                <span class="try-business-footer">
-                                    or <a href="#">purchase now</a>
-                                </span>
-                            </div>
-                            <div class="home-social-links">
-                                <a href="http://www.instagram.com/" target="_blank" class="home-social-links">
-                                    <i class="uil uil-instagram"></i></a>
-                                <a href="http://www.linkedin.com/" target="_blank" class="home-social-links">
-                                    <i class="uil uil-linkedin"></i>
-                                </a>
-                                <a href="http://www.github.com/" target="_blank" class="home-social-links">
-                                    <i class="uil uil-github"></i>
-                                </a>
-                            </div>
-                        </div>
+        <section class="container-hero" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-header">
+                        I'm Franciele Fernandes
+                    </h1>
+                    <h2 class="hero-subheader">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, eos praesentium
+                        nesciunt alias corporis eius non harum, deleniti obcaecati rem a.
+                    </h2>
+                    <div class="try-business">
+                        <a href="#" class="try-business-button">Try 1 month free</a>
+                        <span class="try-business-footer">
+                            or <a href="#">purchase now</a>
+                        </span>
                     </div>
-                </section>
+                    <div class="home-social-links">
+                        <a href="http://www.instagram.com/" target="_blank" class="home-social-links">
+                            <i class="uil uil-instagram"></i></a>
+                        <a href="http://www.linkedin.com/" target="_blank" class="home-social-links">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="http://www.github.com/" target="_blank" class="home-social-links">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- About-->
@@ -131,8 +128,40 @@
             </div>
         </section>
         <!--Skills -->
-        <section class="grid">
-            <article class="main-skills">
+        <section class="container">
+            <h2 class="title-section" id="work">Skills</h2>
+            <div class="grid">
+                <article class="main-skills">
+                    <h3 id="skills">Hard Skills</h3>
+                    <div class="description-accordion">
+                        <details>
+                            <summary>hdfhfjskdl</summary>
+                            Something small enough to escape casual notice.
+                        </details>
+                        <details>
+                            <summary>Details</summary>
+                            Something small enough to escape casual notice.Something small enough to escape casual
+                            notice.
+                        </details>
+                        <details>
+                            <summary>Details</summary>
+                            Something small enough to escape casual notice.Something small enough to escape casual
+                            notice.Something small enough to escape casual notice.
+                        </details>
+                    </div>
+                </article>
+                <div class="side">
+                    <h3>Soft Skills</h3>
+                    <div class="container-skills">
+                        <div class="bar learning" data-skill="TDD"></div>
+                        <div class="bar back basic" data-skill="Python"></div>
+                        <div class="bar back intermediate" data-skill="C#"></div>
+                        <div class="bar front advanced" data-skill="CSS3"></div>
+                        <div class="bar front expert" data-skill="HTML5"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <article class="main-skills">
                 <h1 id="skills">Hard Skills</h1>
                 <div class="description-accordion">
                     <details>
@@ -149,8 +178,8 @@
                         notice.Something small enough to escape casual notice.
                     </details>
                 </div>
-            </article>
-            <section class="side">
+            </article> -->
+            <!-- <section class="side">
                 <h1>Soft Skills</h1>
                 <div class="container-skills">
                     <div class="bar learning" data-skill="TDD"></div>
@@ -159,7 +188,7 @@
                     <div class="bar front advanced" data-skill="CSS3"></div>
                     <div class="bar front expert" data-skill="HTML5"></div>
                 </div>
-            </section>
+            </section> -->
         </section>
         <section class="container" id="container">
             <h2 class="title-section" id="work">Qualifications</h2>
@@ -214,7 +243,29 @@
                 </div>
             </div>
         </section>
- <section class="container-form">
+
+        <section class="container" id="container">
+            <h2 class="title-section" id="work">Contact</h2>
+            <div class="content-flex">
+                <form id="contact">
+                    <label> First Name: </label> <br>
+                    <input type="text" placeholder="" /> <br>
+                    <label> Last Name: </label> </br>
+                    <input type="text" placeholder="" /><br>
+                    <label> Your Email: </label> </br>
+                    <input type="text" placeholder="" />
+                    <br>
+                    <a href="#" class="try-business-button">Submit</a>
+                </form>
+
+
+            </div>
+        </section>
+        <!-- <section class="container-form">
+    <div>
+        <h2 class="title-section" id="work">Contact</h2>
+    </div>
+    
     <form id="contact">
         <label> First Name: </label> <br>
         <input type="text" placeholder="" /> <br>
@@ -223,9 +274,9 @@
         <label> Your Email: </label> </br>
         <input type="text" placeholder="" />
       <br>
-      <button> Submit </button>
+      <a href="#" class="try-business-button">Submit</a>
       </form>
- </section>
+ </section> -->
         <!-- footer -->
         <section class="container-footer">
             <footer class="footer">
