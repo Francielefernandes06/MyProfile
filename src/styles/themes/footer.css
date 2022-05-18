@@ -125,6 +125,7 @@
     color: #ffffff;
     margin: 20px 0 12px;
     padding: 0;
+    gap: 5px
   }
   
   .footer .menu a {

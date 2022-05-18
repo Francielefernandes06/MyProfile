@@ -9,7 +9,7 @@
 /* variables */
 body{
     --text-dark: #000;
-    --primary-dark: #fff;
+    --primary-dark: hsl(268, 19%, 13%);
     --secondary-dark: rgba(55, 65, 81, 0.7);
     --bg-light: rgba(243, 244, 246,0.3);
     --bg-btn: rgba(67, 56, 202, 0.8);
@@ -23,8 +23,8 @@ body.dark{
     --primary-dark:hsl(9, 39%, 77%);
     --secondary-dark: rgba(243, 244, 246,0.3);
     --bg-btn:;
-    --bg-light: rgb(69, 21, 49);
-    --test: rgb(69, 21, 49);
+    --bg-light: hsl(9, 39%, 77%);
+    --test: rgba(55, 65, 81, 0.7);
 }
 
 

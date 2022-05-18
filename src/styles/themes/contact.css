@@ -1,10 +1,8 @@
-form{
-  /* background: rgba(0,0,0,.1); */
-  /* padding: 100px; */
-}
 .container-form{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 label{
@@ -31,20 +29,4 @@ input[type=text]:focus{
 
     border: 0 none;
     outline: 0;
-}
-
-button{
-  background: transparent;
-  color: #FFF;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin: 20px 0;
-  padding: 10px 30px;
-  border: 2px solid #FFF;
-}
-
-button:hover{
-  background: transparent;
-  border: 2px solid rgba(69, 39, 160, .4);
 }
