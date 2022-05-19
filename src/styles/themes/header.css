@@ -184,9 +184,9 @@ input[type="checkbox"]:checked{
 }
 
 /*main*/
-.main{
+/* .main{
     margin-left: 100px;
-}
+} */
 .home-img{
     width: 559px;
     height: 758px;
@@ -230,9 +230,9 @@ input[type="checkbox"]:checked{
         line-height: 1.5;
         padding: 1rem 0;
     }
-    .main {
+    /* .main {
         margin-left: 0;
-    }
+    } */
     input[type="checkbox"] {
         display: none;
     }
