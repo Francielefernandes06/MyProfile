@@ -1,8 +1,11 @@
 .grid {
   display: grid;
-  gap: 10px;
+  gap: 40px;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem;
+  padding: 3rem;
+}
+.img-responsive{
+  padding-left: 6rem;
 }
 .main-skills {
   border: solid 1px #414141;
@@ -48,6 +51,7 @@ ul {
 img {
 max-width: 100%;
 height: auto;
+
 }
 
 .brand_border .fa.fa-minus {
@@ -195,7 +199,7 @@ details[open] summary {
 .column-right{
   width: 515px;
 }
-@media (max-width: 769px) {
+@media (max-width: 980px) {
   .vertical-line {
     display: none;
   }
@@ -205,4 +209,17 @@ details[open] summary {
   .responsive-reverse {
     flex-direction: column-reverse;
   }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills_bar_design{
+    width: 84%;
+  }
+  .img-responsive{
+      padding-left: 0;
+    }
+ 
 }
